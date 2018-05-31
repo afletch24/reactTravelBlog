@@ -6,7 +6,7 @@ export const pics = [
     },
     {
         id: 2,
-        location: 'Big Bend ',
+        location: 'Big Bend, TX',
         img: '../images/bigBend.jpg'
     },
     {
@@ -31,7 +31,7 @@ export const pics = [
     },
     {
         id: 7,
-        location: 'Zion, UT ',
+        location: 'Great Basin, NV',
         img: '../images/greatBasin.jpg'
     },
     {

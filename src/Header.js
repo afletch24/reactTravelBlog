@@ -11,14 +11,14 @@ class Header extends Component {
         <div className="header">
         
             <h1> A&B Travels </h1>
-            <div className="list">
+             {/* <div className="list">
                 <p> About </p>
                 <p> Blog </p>
                 <p> Contact </p>
-            </div>
-            <div className="searchBox">
+            </div>  */}
+            {/* <div className="searchBox">
                 <Search/>
-            </div>
+            </div> */}
         </div>
         );
     }

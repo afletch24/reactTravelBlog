@@ -1,14 +1,12 @@
 .card{
-    border: solid black 5px;
-    width: 250px;
-    height: 250px;
+    
+    width: 350px;
+    height: 350px;
     margin: 10px;
    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.5s;
     text-align: center;
-    border-radius: 6px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;

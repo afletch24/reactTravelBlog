@@ -16,9 +16,9 @@ class Header extends Component {
                 <p> Blog </p>
                 <p> Contact </p>
             </div>  */}
-            {/* <div className="searchBox">
-                <Search/>
-            </div> */}
+             
+             {/* <Search />  */}
+            
         </div>
         );
     }

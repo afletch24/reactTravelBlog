@@ -5,6 +5,7 @@ import "./CardList.css";
 
 
 const CardList = ({ pics }) => {
+    
     return(
         <div className="cardContainer">
             {

@@ -29,6 +29,7 @@ class App extends Component {
 
     return (
       <div>
+        {/* Future Developement: put Search inside of the Header */}
         <Header></Header> 
          <Search searchChange = {this.onSearchChange}/> 
         

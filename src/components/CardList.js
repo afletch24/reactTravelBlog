@@ -5,21 +5,19 @@ import "./CardList.css";
 
 
 const CardList = ({ pics }) => {
+  const content = pics.map((pic) =>
+        <Card 
+            key={pic.id}
+            id={pic.id}
+            location={pic.location}
+            img={pic.img}
+        />
+
+    );
     
     return(
         <div className="cardContainer">
-            {
-                pics.map((travel, i) => {
-                return(
-                    <Card
-                        key={pics[i].id} 
-                        id={pics[i].id} 
-                        location = {pics[i].location} 
-                        img ={pics[i].img}
-                    />
-                )
-                })
-            }      
+            {content} 
         </div>
     )
     

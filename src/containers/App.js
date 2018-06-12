@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CardList from "../components/CardList";
 import Header from "../components/Header";
-import Scroll from "../components/Scroll";
 import Search from "../components/Search";
 import ErrorBoundry from "../components/ErrorBoundry";
 import './App.css';
@@ -32,11 +31,11 @@ class App extends Component {
         <Header></Header> 
          <Search searchChange = {this.onSearchChange}/> 
         
-        <Scroll>
+        <div style={{overflowY: "scroll", height: "700px"}}>
           <ErrorBoundry>
             <CardList pics = {filteredPics}/>  
           </ErrorBoundry>
-        </Scroll>
+        </div>
       </div>
     );
   }
